@@ -1,4 +1,4 @@
-TrollSoleJS
+TrollsoleJS
 ===========
 
 Replaces developer console with trollface console or anything custom.
