@@ -1,7 +1,12 @@
+
+// Load external html
+function trollHtml(path){
+  jQuery("#trollsole").load(path);
+}
+
+
 // adding console html
 jQuery(function() {
-    // adding trollsole html
-  jQuery("#trollsole").load( "trollsole/trollsole.html");
 
   // Message for mobile
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -21,12 +26,25 @@ function show_trolfface_console(){
 		document.getElementById('trollface_console').style.display="block";
 		document.getElementsByTagName('body')[0].style.marginTop="-130px";
 		open = false;
+    soundPlay();
 
 	} else {
 		document.getElementById('trollface_console').style.display="none";
 		document.getElementsByTagName('body')[0].style.marginTop="0";
 		open = true;
 	}
+}
+
+// Play sound id exist
+function soundPlay(){
+
+  var sound = document.getElementById('troll-sound');
+
+  if (sound != null){
+    sound.play();
+  } else{
+    // trollface
+  }
 }
 
 //////////F12 disable code////////////////////////

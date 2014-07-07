@@ -111,6 +111,26 @@ body, html{
 	-ms-transition: opacity 0.25s ease-in-out;
 }
 
+a.github, a.github:visited{
+	line-height: 90px;
+	color: #d93c49;
+	padding-left: 28px;
+	position: relative;
+	text-decoration: none;
+	left: -4px;
+}
+
+a.github:after{
+	content: '';
+	background: url(img/github_ico.png) left 0 no-repeat;
+	height: 21px;
+	width: 21px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+}
+
 .console .social_cont p{
 	color: #555;
 	line-height: 30px;

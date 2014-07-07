@@ -1,0 +1,45 @@
+<style>
+.fear{
+	background: #000;
+}
+
+.console .scaryface{
+	width: 240px;
+	height: 305px;
+	position: relative;
+	margin: 0 auto;
+	top: 50px;
+	background: url(img/fear.jpg) center center no-repeat;
+	transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+}
+.console:hover .scaryface{
+	opacity: 0;
+}
+
+</style>
+<div id="trollface_console" class="console disabled fear">
+		<div class="head_wrap">
+			<div class="close_console" onclick="show_trolfface_console();"></div>
+			<div class="head_left"></div>
+			<div class="head_right"></div>
+			<div class="scaryface"></div>
+			
+			<audio id="troll-sound">
+				  <source src="img/scream.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
+
+			<div class="social_cont">
+				<h2>You was trolled!</h2>
+				<p>Now it's time to troll forward.</p>
+				<div class="social">
+					<span class='st_facebook_hcount' displayText='Facebook'></span>
+					<span class='st_twitter_hcount' displayText='Tweet'></span>
+					<span class='st_googleplus_hcount' displayText='Google +'></span>
+				</div>
+			</div>
+		</div>
+</div>
