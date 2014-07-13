@@ -1,21 +1,7 @@
-
-// Load external html
-function trollHtml(path){
-  jQuery("#trollsole").load(path);
-}
-
-
-// adding console html
-jQuery(function() {
-
-  // Message for mobile
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-   jQuery('#messaging h1').html("This feature is not supported on your device.");
-   jQuery('#messaging h1').css('font-size','100px');
-   jQuery('#messaging').css('margin-top','100px');
-} 
-
-});
+// If you want to load external html from same domain - uncomenet this function and add jQuery library
+// function trollHtml(path){
+//   jQuery("#trollsole").load(path);
+// }
 
 // Open/Close switcher
 var open = true;

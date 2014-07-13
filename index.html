@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Console Trollface</title>
 	<link rel="stylesheet" type="text/css" href="trollsole.css" />
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="trollsole.js"></script>
 	
 	<style>
@@ -16,27 +16,51 @@
 		}
 	</style>
 
-<!-- Social -->
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "dfe96c63-d37b-4c8b-b8c4-19affe387d66", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-<!-- Social end -->
-
+<!--  If you want to load custom html file from another pace, uncomment it and lines 1-4 from trollsole.js.
 <script type="text/javascript">
 window.onload=function(){
 	trollHtml("html/trollsole.html"); // default trollface
 	// trollHtml("html/fearsole.html"); // scary
 	// trollHtml("html/vacsole.html"); // vacantion
 }
+</script> -->
+
+<script>
+
+function mobileCheck(){
+  // Message for mobile
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	   jQuery('#messaging h1').html("This feature is not supported on your device.");
+	   jQuery('#messaging h1').css('font-size','100px');
+	   jQuery('#messaging').css('margin-top','100px');
+	} 
+
+	});
+}
 </script>
 
 </head>
-<body>
+<body onload="mobileCheck()">
 	
 	<div class="message" id="messaging">
-		<h1>Hey, there is something weird in console.</h1>
+ 		<h1>Hey, there is something weird in console.</h1>
 	</div>
 
-	<div id="trollsole"></div>
+	<div id="trollface_console" class="console disabled">
+			<div class="head_wrap">
+				<div class="close_console" onclick="show_trolfface_console();"></div>
+				<div class="head_left"></div>
+				<div class="head_right"></div>
+				<div class="trollface"></div>
+				<div class="social_cont">
+					<h2>You was trolled!</h2>
+					<p>Now it's time to troll forward.</p>
+
+					<a href="https://github.com/artrayd/TrollsoleJS" class="myButton" class="github">Get TrollsoleJS</a>				
+					
+				</div>
+			</div>
+	</div>
 
 <!-- GA -->
 <script>
