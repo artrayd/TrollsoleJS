@@ -37,4 +37,4 @@ Optional:
 Add there your custom content and have fun :)
 
 P.s.
-Developer -> tools or left click will bring console back.
+Developer -> tools or left click "Inspect element" will bring console back.
