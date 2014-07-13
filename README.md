@@ -17,19 +17,20 @@ Usage:
 2. Before body closes paste this:
 3. 
 
-  	<div id="trollface_console" class="console disabled">
-			<div class="head_wrap">
-				<div class="close_console" onclick="show_trolfface_console();"></div>
-				<div class="head_left"></div>
-				<div class="head_right"></div>
-				<div class="trollface"></div>
-				<div class="social_cont">
+	<div id="trollface_console" class="console disabled">
+		<div class="head_wrap">
+			<div class="close_console" onclick="show_trolfface_console();"></div>
+			<div class="head_left"></div>
+			<div class="head_right"></div>
+			<div class="trollface"></div>
+			<div class="social_cont">
 
-					<h2>Your message</h2>
-					<p>Your submessage.</p>
+				<h2>Your message</h2>
+				<p>Your submessage.</p>
 					
-				</div>
 			</div>
+		</div>
+	</div>
 
 
 Optional:
