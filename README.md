@@ -36,4 +36,5 @@ Usage:
 Optional:
 Add there your custom content and have fun :)
 
-
+P.s.
+Developer -> tools or left click will bring console back.
