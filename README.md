@@ -1,10 +1,10 @@
-TrollsoleJS
-===========
+<h1>TrollsoleJS</h1>
+<span>===========</span>
 
-Replaces developer console with trollface console or anything custom.
+<p>Replaces developer console with trollface console or anything custom. </br>
 
 Absolutely useless stuff. Include trollsole.js into your html document, and ask your colleague or friend to check what is wrong with console :)
-
+<p>
 <h2>Examples:</h2>
 <a href="http://trollsole.artrayd.com/" target="_blank">Default trollface</a><br>
 <a href="http://trollsole.artrayd.com/fear.html" target="_blank">Be aware, it's Scary and loud..</a><br>
