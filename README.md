@@ -7,7 +7,7 @@ Absolutely useless stuff. Include trollsole.js into your html document, and ask 
 <b>Examples:</b>
 
 <a href="http://trollsole.artrayd.com/" target="_blank">Default trollface</a><br>
-<a href="http://trollsole.artrayd.com/fear.html" target="_blank">Be aware, it's Scary and loud..</a><br>
+<a href="http://trollsole.artrayd.com/fear.html" target="_blank">Be aware, it's scary and loud..</a><br>
 <a href="http://trollsole.artrayd.com/vacancion.html" target="_blank">Vacancions</a><br>
 
 <h2>Usage:</h2>
