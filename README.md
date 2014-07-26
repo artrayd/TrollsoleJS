@@ -15,7 +15,6 @@ Usage:
 1. Paste in head of your document:
   <script type="text/javascript" src="trollsole/trollsole.js"></script>
 2. Before body closes paste this:
-3. 
 
 	<div id="trollface_console" class="console disabled">
 		<div class="head_wrap">
