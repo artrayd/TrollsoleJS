@@ -4,17 +4,17 @@ Replaces developer console with trollface console or anything custom.
 
 Absolutely useless stuff. Include trollsole.js into your html document, and ask your colleague or friend to check what is wrong with console :)
 
-Examples:
+<b>Examples:</b> </br>
 <a href="http://trollsole.artrayd.com/" target="_blank">Default trollface</a><br>
 <a href="http://trollsole.artrayd.com/fear.html" target="_blank">Be aware, it's Scary and loud..</a><br>
 <a href="http://trollsole.artrayd.com/vacancion.html" target="_blank">Vacancions</a><br>
 
-Usage:
+<h2>Usage:</h2>
 
 1. Paste in head of your document:
-	<code>
-  		<script type="text/javascript" src="trollsole/trollsole.js"></script>
-	</code>
+	```html
+		<script type="text/javascript" src="trollsole/trollsole.js"></script>
+	```
 2. Before body closes paste this:
 
 
