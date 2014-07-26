@@ -13,7 +13,9 @@ Absolutely useless stuff. Include trollsole.js into your html document, and ask 
 Usage:
 
 1. Paste in head of your document:
-  <script type="text/javascript" src="trollsole/trollsole.js"></script>
+	<code>
+  		<script type="text/javascript" src="trollsole/trollsole.js"></script>
+	</code>
 2. Before body closes paste this:
 
 <code>
