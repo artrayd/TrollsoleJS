@@ -13,14 +13,14 @@ Absolutely useless stuff. Include trollsole.js into your html document, and ask 
 <h2>Usage:</h2>
 
 1. Paste in head of your document:
-	```html
-		<script type="text/javascript" src="trollsole/trollsole.js"></script>
+
+	```
+<script type="text/javascript" src="trollsole/trollsole.js"></script>
 	```
 2. Before body closes paste this:
 
 
 ```html
-
 <div id="trollface_console" class="console disabled">
 	<div class="head_wrap">
 		<div class="close_console" onclick="show_trolfface_console();"></div>
@@ -35,7 +35,6 @@ Absolutely useless stuff. Include trollsole.js into your html document, and ask 
 		</div>
 	</div>
 </div>
-
 ```
 
 
