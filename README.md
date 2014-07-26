@@ -16,6 +16,7 @@ Usage:
   <script type="text/javascript" src="trollsole/trollsole.js"></script>
 2. Before body closes paste this:
 
+<code>
 	<div id="trollface_console" class="console disabled">
 		<div class="head_wrap">
 			<div class="close_console" onclick="show_trolfface_console();"></div>
@@ -30,7 +31,7 @@ Usage:
 			</div>
 		</div>
 	</div>
-
+</code>
 
 Optional:
 Add there your custom content and have fun :)
