@@ -13,10 +13,9 @@ Absolutely useless stuff. Include trollsole.js into your html document, and ask 
 <h2>Usage:</h2>
 
 1. Paste in head of your document:
-
-	```
+```html
 <script type="text/javascript" src="trollsole/trollsole.js"></script>
-	```
+```
 2. Before body closes paste this:
 
 
