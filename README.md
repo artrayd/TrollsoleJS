@@ -1,6 +1,8 @@
 TrollsoleJS
 ===========
 Replaces developer console with trollface console or anything custom.
+![Trollsole](http://trollsole.artrayd.com/img/trollsole.png)
+
 
 Absolutely useless stuff. Include trollsole.js into your html document, and ask your colleague or friend to check what is wrong with console :)
 
