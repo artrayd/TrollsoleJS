@@ -1,6 +1,8 @@
 TrollsoleJS
 ===========
 Replaces developer console with trollface console or anything custom.
+
+
 ![Trollsole](http://trollsole.artrayd.com/img/trollsole.png)
 
 
